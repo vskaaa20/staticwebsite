@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivia - Graphic Designer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">Olivia</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm Olivia</h1>
+                <p class="subtitle">Creative Graphic Designer</p>
+                <p>I create beautiful, functional designs that tell stories and connect with audiences. From branding to digital experiences, I bring ideas to life through thoughtful design.</p>
+                <a href="#contact" class="cta-button">Let's Work Together</a>
+            </div>
+            <div class="hero-image">
+                <img src="product-manager-26.svg" alt="Olivia - Graphic Designer">
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content" id="about">
+        <h2>About Me</h2>
+        <div class="content-grid">
+            <div class="content-item">
+                <h3>Creative Vision</h3>
+                <p>With over 5 years of experience in graphic design, I specialize in creating visually compelling designs that communicate effectively and resonate with target audiences. My approach combines creativity with strategic thinking.</p>
+            </div>
+            <div class="content-item">
+                <h3>Design Philosophy</h3>
+                <p>I believe great design is not just about aesthetics – it's about solving problems and creating meaningful connections. Every project is an opportunity to tell a unique story through visual elements.</p>
+            </div>
+            <div class="content-item">
+                <h3>Collaborative Process</h3>
+                <p>I work closely with clients to understand their vision and goals. Through collaboration and iteration, we create designs that not only look beautiful but also achieve business objectives.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Card Section - Technical Skills -->
+    <section class="cards" id="skills">
+        <div class="cards-container">
+            <h2>Technical Skills</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=400&h=200&fit=crop" alt="Adobe Creative Suite">
+                    </div>
+                    <div class="card-body">
+                        <h3>Adobe Creative Suite</h3>
+                        <p>Expert in Photoshop, Illustrator, and InDesign</p>
+                        <div class="skill-level">
+                            <div class="skill-bar" style="width: 100%"></div>
+                        </div>
+                        <p>Advanced proficiency in all major Adobe applications for comprehensive design workflows.</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <img src="https://images.unsplash.com/photo-1586717799252-bd134ad00e26?w=400&h=200&fit=crop" alt="UI/UX Design">
+                    </div>
+                    <div class="card-body">
+                        <h3>UI/UX Design</h3>
+                        <p>Figma, Sketch, and Adobe XD</p>
+                        <div class="skill-level">
+                            <div class="skill-bar" style="width: 100%"></div>
+                        </div>
+                        <p>Creating intuitive user interfaces and seamless user experiences for digital products.</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=200&fit=crop" alt="Brand Identity">
+                    </div>
+                    <div class="card-body">
+                        <h3>Brand Identity</h3>
+                        <p>Logo design, brand guidelines, and visual systems</p>
+                        <div class="skill-level">
+                            <div class="skill-bar" style="width: 100%"></div>
+                        </div>
+                        <p>Developing cohesive brand identities that capture essence and values of businesses.</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=400&h=200&fit=crop" alt="Motion Graphics">
+                    </div>
+                    <div class="card-body">
+                        <h3>Motion Graphics</h3>
+                        <p>After Effects and Premiere Pro</p>
+                        <div class="skill-level">
+                            <div class="skill-bar" style="width: 100%"></div>
+                        </div>
+                        <p>Bringing static designs to life with engaging animations and video content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section" id="portfolio">
+        <h2>Featured Work</h2>
+        <p style="margin-bottom: 2rem; font-size: 1.1rem; color: #666;">Watch this showcase of my recent video editing!</p>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/MJdcNeguN2M" title="Creative Design Process" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <a href="#">olivia@design.com</a>
+                <a href="#">+1 (234) 567-890</a>
+                <a href="#">LinkedIn</a>
+            </div>
+            <div class="footer-section">
+                <h3>Services</h3>
+                <a href="#">Brand Identity</a>
+                <a href="#">UI/UX Design</a>
+                <a href="#">Print Design</a>
+                <a href="#">Motion Graphics</a>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#portfolio">Portfolio</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
